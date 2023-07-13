@@ -1,0 +1,84 @@
+D:\Programming\Web Api Application\bin\Debug\net6.0\appsettings.Development.json
+D:\Programming\Web Api Application\bin\Debug\net6.0\appsettings.json
+D:\Programming\Web Api Application\bin\Debug\net6.0\Web Api Application.exe
+D:\Programming\Web Api Application\bin\Debug\net6.0\Web Api Application.deps.json
+D:\Programming\Web Api Application\bin\Debug\net6.0\Web Api Application.runtimeconfig.json
+D:\Programming\Web Api Application\bin\Debug\net6.0\Web Api Application.dll
+D:\Programming\Web Api Application\bin\Debug\net6.0\Web Api Application.pdb
+D:\Programming\Web Api Application\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Programming\Web Api Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Programming\Web Api Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Programming\Web Api Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.csproj.AssemblyReference.cache
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.AssemblyInfoInputs.cache
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.AssemblyInfo.cs
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.csproj.CoreCompileInputs.cache
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\Web Api Application\obj\Debug\net6.0\staticwebassets\msbuild.Web Api Application.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programming\Web Api Application\obj\Debug\net6.0\staticwebassets\msbuild.build.Web Api Application.props
+D:\Programming\Web Api Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Web Api Application.props
+D:\Programming\Web Api Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Web Api Application.props
+D:\Programming\Web Api Application\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programming\Web Api Application\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programming\Web Api Application\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programming\Web Api Application\obj\Debug\net6.0\scopedcss\bundle\Web Api Application.styles.css
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.csproj.CopyComplete
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.dll
+D:\Programming\Web Api Application\obj\Debug\net6.0\refint\Web Api Application.dll
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.pdb
+D:\Programming\Web Api Application\obj\Debug\net6.0\Web Api Application.genruntimeconfig.cache
+D:\Programming\Web Api Application\obj\Debug\net6.0\ref\Web Api Application.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\appsettings.Development.json
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\appsettings.json
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Web Api Application.exe
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Web Api Application.deps.json
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Web Api Application.runtimeconfig.json
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Web Api Application.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Web Api Application.pdb
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.csproj.AssemblyReference.cache
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.AssemblyInfoInputs.cache
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.AssemblyInfo.cs
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.csproj.CoreCompileInputs.cache
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\staticwebassets\msbuild.Web Api Application.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\staticwebassets\msbuild.build.Web Api Application.props
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Web Api Application.props
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Web Api Application.props
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\scopedcss\bundle\Web Api Application.styles.css
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.csproj.CopyComplete
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.dll
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\refint\Web Api Application.dll
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.pdb
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\Web Api Application.genruntimeconfig.cache
+D:\Programming\My Project\Web Api Application\obj\Debug\net6.0\ref\Web Api Application.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Humanizer.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Npgsql.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\Programming\My Project\Web Api Application\bin\Debug\net6.0\Serilog.Sinks.File.dll
