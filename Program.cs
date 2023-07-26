@@ -1,38 +1,30 @@
-using Serilog;
-
-Log.Logger = new LoggerConfiguration()
-                  .MinimumLevel.Debug()
-                  .WriteTo.Console()
-                  .WriteTo.File("logs/productinfo.txt", rollingInterval: RollingInterval.Day)
-                  .CreateLogger();
+using API_Project.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-#region Containers
+// Add services to the container.
 
-builder.Host.UseSerilog();
-
-builder.Services.AddControllers(options =>
-{
-  options.ReturnHttpNotAcceptable = true;
-}).AddXmlDataContractSerializerFormatters();
-
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<ApplicationDbContext>();
 
-#endregion
-
-//build application
+var devCorPolicy = "devCorPolicy";
+builder.Services.AddCors(options =>
+{
+  options.AddPolicy(devCorPolicy, builder => {
+    builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+  });
+});
 
 var app = builder.Build();
 
-#region Pipelines
-
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
   app.UseSwagger();
   app.UseSwaggerUI();
+  app.UseCors(devCorPolicy);
 }
 
 app.UseHttpsRedirection();
@@ -40,7 +32,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
-#endregion
 
 app.Run();
