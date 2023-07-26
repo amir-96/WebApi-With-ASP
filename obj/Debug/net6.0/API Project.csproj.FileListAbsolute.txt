@@ -30,3 +30,35 @@ C:\Users\amirj\Desktop\API Project\obj\Debug\net6.0\refint\API Project.dll
 C:\Users\amirj\Desktop\API Project\obj\Debug\net6.0\API Project.pdb
 C:\Users\amirj\Desktop\API Project\obj\Debug\net6.0\API Project.genruntimeconfig.cache
 C:\Users\amirj\Desktop\API Project\obj\Debug\net6.0\ref\API Project.dll
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\appsettings.json
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\API Project.exe
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\API Project.deps.json
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\API Project.runtimeconfig.json
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\API Project.dll
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\API Project.pdb
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.csproj.AssemblyReference.cache
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.AssemblyInfoInputs.cache
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.AssemblyInfo.cs
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.csproj.CoreCompileInputs.cache
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets\msbuild.API Project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets\msbuild.build.API Project.props
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API Project.props
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API Project.props
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\scopedcss\bundle\API Project.styles.css
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.csproj.CopyComplete
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.dll
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\refint\API Project.dll
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.pdb
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.genruntimeconfig.cache
+C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\ref\API Project.dll

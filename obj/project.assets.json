@@ -443,11 +443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amirj\\Desktop\\API Project\\API Project.csproj",
+      "projectUniqueName": "C:\\Users\\amirj\\Desktop\\Uni AI\\WebApi-With-ASP\\API Project.csproj",
       "projectName": "API Project",
-      "projectPath": "C:\\Users\\amirj\\Desktop\\API Project\\API Project.csproj",
+      "projectPath": "C:\\Users\\amirj\\Desktop\\Uni AI\\WebApi-With-ASP\\API Project.csproj",
       "packagesPath": "C:\\Users\\amirj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amirj\\Desktop\\API Project\\obj\\",
+      "outputPath": "C:\\Users\\amirj\\Desktop\\Uni AI\\WebApi-With-ASP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Viisual Studio\\Shared\\NuGetPackages"
