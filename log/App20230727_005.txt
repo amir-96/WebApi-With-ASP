@@ -1,0 +1,66 @@
+2023-07-27 15:50:16.330 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-27 15:50:16.382 +03:30 [DBG] Hosting starting
+2023-07-27 15:50:16.435 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 125DFC3616D0C8C0E4FE0C577311DF2BC2C4E277)
+2023-07-27 15:50:16.458 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-27 15:50:16.458 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-27 15:50:16.458 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-27 15:50:16.458 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-27 15:50:16.458 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-27 15:50:16.459 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 15:50:16.459 +03:30 [INF] Hosting environment: Development
+2023-07-27 15:50:16.459 +03:30 [INF] Content root path: D:\Programming\GitHub\WebApi-With-ASP\
+2023-07-27 15:50:16.459 +03:30 [DBG] Hosting started
+2023-07-27 15:50:16.605 +03:30 [DBG] Connection id "0HMSEJFB1GH6Q" accepted.
+2023-07-27 15:50:16.605 +03:30 [DBG] Connection id "0HMSEJFB1GH6R" accepted.
+2023-07-27 15:50:16.606 +03:30 [DBG] Connection id "0HMSEJFB1GH6R" started.
+2023-07-27 15:50:16.606 +03:30 [DBG] Connection id "0HMSEJFB1GH6Q" started.
+2023-07-27 15:50:16.613 +03:30 [DBG] Connection id "0HMSEJFB1GH6Q" received FIN.
+2023-07-27 15:50:16.613 +03:30 [DBG] Connection id "0HMSEJFB1GH6R" received FIN.
+2023-07-27 15:50:16.618 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 15:50:16.618 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 15:50:16.631 +03:30 [DBG] Connection id "0HMSEJFB1GH6R" stopped.
+2023-07-27 15:50:16.631 +03:30 [DBG] Connection id "0HMSEJFB1GH6Q" stopped.
+2023-07-27 15:50:16.632 +03:30 [DBG] Connection id "0HMSEJFB1GH6Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 15:50:16.632 +03:30 [DBG] Connection id "0HMSEJFB1GH6R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 15:50:25.267 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-27 15:50:25.317 +03:30 [DBG] Hosting starting
+2023-07-27 15:50:25.368 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 125DFC3616D0C8C0E4FE0C577311DF2BC2C4E277)
+2023-07-27 15:50:25.388 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-27 15:50:25.389 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-27 15:50:25.389 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-27 15:50:25.389 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-27 15:50:25.389 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-27 15:50:25.389 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 15:50:25.389 +03:30 [INF] Hosting environment: Development
+2023-07-27 15:50:25.389 +03:30 [INF] Content root path: D:\Programming\GitHub\WebApi-With-ASP\
+2023-07-27 15:50:25.389 +03:30 [DBG] Hosting started
+2023-07-27 15:50:25.764 +03:30 [DBG] Connection id "0HMSEJFDORM5L" received FIN.
+2023-07-27 15:50:25.765 +03:30 [DBG] Connection id "0HMSEJFDORM5L" accepted.
+2023-07-27 15:50:25.766 +03:30 [DBG] Connection id "0HMSEJFDORM5M" received FIN.
+2023-07-27 15:50:25.766 +03:30 [DBG] Connection id "0HMSEJFDORM5M" accepted.
+2023-07-27 15:50:25.766 +03:30 [DBG] Connection id "0HMSEJFDORM5L" started.
+2023-07-27 15:50:25.779 +03:30 [DBG] Connection id "0HMSEJFDORM5M" started.
+2023-07-27 15:50:25.787 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 15:50:25.787 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 15:50:25.800 +03:30 [DBG] Connection id "0HMSEJFDORM5M" stopped.
+2023-07-27 15:50:25.800 +03:30 [DBG] Connection id "0HMSEJFDORM5L" stopped.
+2023-07-27 15:50:25.801 +03:30 [DBG] Connection id "0HMSEJFDORM5M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 15:50:25.801 +03:30 [DBG] Connection id "0HMSEJFDORM5L" sending FIN because: "The Socket transport's send loop completed gracefully."

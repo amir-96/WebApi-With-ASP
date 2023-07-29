@@ -62,3 +62,68 @@ C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\refint\API Projec
 C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.pdb
 C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\API Project.genruntimeconfig.cache
 C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\obj\Debug\net6.0\ref\API Project.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\appsettings.Development.json
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\appsettings.json
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\API Project.exe
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\API Project.deps.json
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\API Project.runtimeconfig.json
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\API Project.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\API Project.pdb
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.csproj.AssemblyReference.cache
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.AssemblyInfoInputs.cache
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.AssemblyInfo.cs
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.csproj.CoreCompileInputs.cache
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets\msbuild.API Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets\msbuild.build.API Project.props
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API Project.props
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API Project.props
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\scopedcss\bundle\API Project.styles.css
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.csproj.CopyComplete
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.dll
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\refint\API Project.dll
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.pdb
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\API Project.genruntimeconfig.cache
+D:\Programming\GitHub\WebApi-With-ASP\obj\Debug\net6.0\ref\API Project.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Humanizer.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Npgsql.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programming\GitHub\WebApi-With-ASP\bin\Debug\net6.0\BCrypt.Net-Next.dll

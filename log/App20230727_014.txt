@@ -1,0 +1,105 @@
+2023-07-27 23:48:02.266 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-27 23:48:02.310 +03:30 [DBG] Hosting starting
+2023-07-27 23:48:02.318 +03:30 [INF] User profile is available. Using 'C:\Users\amirj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-27 23:48:02.320 +03:30 [DBG] Reading data from file 'C:\Users\amirj\AppData\Local\ASP.NET\DataProtection-Keys\key-e6e8aa4a-753d-4975-b87f-f0beb135ff4f.xml'.
+2023-07-27 23:48:02.325 +03:30 [DBG] Found key {e6e8aa4a-753d-4975-b87f-f0beb135ff4f}.
+2023-07-27 23:48:02.329 +03:30 [DBG] Considering key {e6e8aa4a-753d-4975-b87f-f0beb135ff4f} with expiration date 2023-10-15 14:27:24Z as default key.
+2023-07-27 23:48:02.330 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-27 23:48:02.331 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-27 23:48:02.332 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-27 23:48:02.334 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-27 23:48:02.335 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-27 23:48:02.337 +03:30 [DBG] Using key {e6e8aa4a-753d-4975-b87f-f0beb135ff4f} as the default key.
+2023-07-27 23:48:02.337 +03:30 [DBG] Key ring with default key {e6e8aa4a-753d-4975-b87f-f0beb135ff4f} was loaded during application startup.
+2023-07-27 23:48:02.376 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 125DFC3616D0C8C0E4FE0C577311DF2BC2C4E277)
+2023-07-27 23:48:02.391 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-27 23:48:02.391 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-27 23:48:02.391 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-27 23:48:02.391 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-27 23:48:02.391 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-27 23:48:02.391 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 23:48:02.391 +03:30 [INF] Hosting environment: Development
+2023-07-27 23:48:02.391 +03:30 [INF] Content root path: D:\Programming\GitHub\WebApi-With-ASP\
+2023-07-27 23:48:02.391 +03:30 [DBG] Hosting started
+2023-07-27 23:48:02.532 +03:30 [DBG] Connection id "0HMSERQA534GN" accepted.
+2023-07-27 23:48:02.532 +03:30 [DBG] Connection id "0HMSERQA534GN" started.
+2023-07-27 23:48:02.542 +03:30 [DBG] Connection id "0HMSERQA534GO" accepted.
+2023-07-27 23:48:02.542 +03:30 [DBG] Connection id "0HMSERQA534GO" started.
+2023-07-27 23:48:02.589 +03:30 [DBG] Connection id "0HMSERQA534GO" received FIN.
+2023-07-27 23:48:02.589 +03:30 [DBG] Connection id "0HMSERQA534GN" received FIN.
+2023-07-27 23:48:02.592 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 23:48:02.592 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 23:48:02.602 +03:30 [DBG] Connection id "0HMSERQA534GO" stopped.
+2023-07-27 23:48:02.602 +03:30 [DBG] Connection id "0HMSERQA534GN" stopped.
+2023-07-27 23:48:02.602 +03:30 [DBG] Connection id "0HMSERQA534GN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 23:48:02.602 +03:30 [DBG] Connection id "0HMSERQA534GO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 23:48:02.603 +03:30 [DBG] Connection id "0HMSERQA534GP" accepted.
+2023-07-27 23:48:02.603 +03:30 [DBG] Connection id "0HMSERQA534GP" started.
+2023-07-27 23:48:02.621 +03:30 [DBG] Connection 0HMSERQA534GP established using the following protocol: "Tls13"
+2023-07-27 23:48:02.652 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - -
+2023-07-27 23:48:02.665 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-27 23:48:02.678 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-27 23:48:02.679 +03:30 [DBG] Request did not match any endpoints
+2023-07-27 23:48:02.727 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-27 23:48:02.767 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-27 23:48:02.769 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 118.5645ms
+2023-07-27 23:48:02.843 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - -
+2023-07-27 23:48:02.845 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 1.7319ms
+2023-07-27 23:48:02.856 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - -
+2023-07-27 23:48:02.869 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.0468ms
+2023-07-27 23:48:03.019 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - -
+2023-07-27 23:48:03.020 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-27 23:48:03.020 +03:30 [DBG] Request did not match any endpoints
+2023-07-27 23:48:03.092 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.0367ms
+2023-07-27 23:48:32.257 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-27 23:48:32.793 +03:30 [INF] Entity Framework Core 6.0.20 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-07-27 23:48:33.068 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:48:33.081 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:48:33.100 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:48:33.120 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:48:33.136 +03:30 [DBG] An entity of type 'Product' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:48:33.149 +03:30 [DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:48:33.166 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 23:48:33.171 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 23:48:33.171 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 23:48:33.171 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 23:48:33.190 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:48:33.314 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:33.315 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:33.318 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:48:33.321 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-27 23:48:33.326 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-07-27 23:48:33.326 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:48:33.377 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:33.382 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:48:33.439 +03:30 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:48:33.439 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:33.440 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:48:33.446 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-27 23:48:33.447 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-27 23:48:33.447 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:48:33.447 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:33.447 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-27 23:48:33.449 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-27 23:48:33.454 +03:30 [DBG] A data reader was disposed.
+2023-07-27 23:48:33.454 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:33.454 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:48:33.456 +03:30 [DBG] 'ApplicationDbContext' disposed.

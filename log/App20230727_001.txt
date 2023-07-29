@@ -1,0 +1,44 @@
+2023-07-27 15:48:29.534 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-27 15:48:29.577 +03:30 [DBG] Hosting starting
+2023-07-27 15:48:29.630 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 125DFC3616D0C8C0E4FE0C577311DF2BC2C4E277)
+2023-07-27 15:48:29.650 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-27 15:48:29.650 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-27 15:48:29.650 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-27 15:48:29.650 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-27 15:48:29.650 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-27 15:48:29.650 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 15:48:29.650 +03:30 [INF] Hosting environment: Development
+2023-07-27 15:48:29.650 +03:30 [INF] Content root path: D:\Programming\GitHub\WebApi-With-ASP\
+2023-07-27 15:48:29.650 +03:30 [DBG] Hosting started
+2023-07-27 15:48:29.825 +03:30 [DBG] Connection id "0HMSEJEB75KBB" accepted.
+2023-07-27 15:48:29.825 +03:30 [DBG] Connection id "0HMSEJEB75KBC" accepted.
+2023-07-27 15:48:29.826 +03:30 [DBG] Connection id "0HMSEJEB75KBB" started.
+2023-07-27 15:48:29.826 +03:30 [DBG] Connection id "0HMSEJEB75KBC" started.
+2023-07-27 15:48:29.831 +03:30 [DBG] Connection id "0HMSEJEB75KBB" received FIN.
+2023-07-27 15:48:29.878 +03:30 [DBG] Connection id "0HMSEJEB75KBC" received FIN.
+2023-07-27 15:48:29.887 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 15:48:29.887 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 15:48:29.902 +03:30 [DBG] Connection id "0HMSEJEB75KBB" stopped.
+2023-07-27 15:48:29.902 +03:30 [DBG] Connection id "0HMSEJEB75KBC" stopped.
+2023-07-27 15:48:29.904 +03:30 [DBG] Connection id "0HMSEJEB75KBC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 15:48:29.904 +03:30 [DBG] Connection id "0HMSEJEB75KBB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 15:48:36.832 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-27 15:48:36.875 +03:30 [DBG] Hosting starting
+2023-07-27 15:48:36.949 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 125DFC3616D0C8C0E4FE0C577311DF2BC2C4E277)
+2023-07-27 15:48:36.983 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-27 15:48:36.983 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-27 15:48:36.984 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-27 15:48:36.984 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-27 15:48:36.984 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-27 15:48:36.984 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 15:48:36.984 +03:30 [INF] Hosting environment: Development
+2023-07-27 15:48:36.984 +03:30 [INF] Content root path: D:\Programming\GitHub\WebApi-With-ASP\
+2023-07-27 15:48:36.984 +03:30 [DBG] Hosting started

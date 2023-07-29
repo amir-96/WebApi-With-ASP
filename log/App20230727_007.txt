@@ -1,0 +1,46 @@
+2023-07-27 15:50:33.706 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-27 15:50:34.201 +03:30 [INF] Entity Framework Core 6.0.20 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-07-27 15:50:34.294 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 15:50:34.309 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 15:50:34.311 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 15:50:34.311 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 15:50:34.318 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 15:50:34.344 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 15:50:34.350 +03:30 [DBG] An entity of type 'Product' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 15:50:34.353 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 15:50:34.353 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 15:50:34.355 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 15:50:34.355 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 15:50:34.399 +03:30 [DBG] 'ApplicationDbContext' disposed.
+2023-07-27 15:50:42.583 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-27 15:50:42.623 +03:30 [DBG] Hosting starting
+2023-07-27 15:50:42.674 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 125DFC3616D0C8C0E4FE0C577311DF2BC2C4E277)
+2023-07-27 15:50:42.692 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-27 15:50:42.692 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-27 15:50:42.692 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-27 15:50:42.692 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-27 15:50:42.692 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-27 15:50:42.692 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 15:50:42.692 +03:30 [INF] Hosting environment: Development
+2023-07-27 15:50:42.692 +03:30 [INF] Content root path: D:\Programming\GitHub\WebApi-With-ASP\
+2023-07-27 15:50:42.692 +03:30 [DBG] Hosting started
+2023-07-27 15:50:42.966 +03:30 [DBG] Connection id "0HMSEJFISTDGP" received FIN.
+2023-07-27 15:50:42.966 +03:30 [DBG] Connection id "0HMSEJFISTDGQ" received FIN.
+2023-07-27 15:50:42.973 +03:30 [DBG] Connection id "0HMSEJFISTDGP" accepted.
+2023-07-27 15:50:42.973 +03:30 [DBG] Connection id "0HMSEJFISTDGQ" accepted.
+2023-07-27 15:50:42.975 +03:30 [DBG] Connection id "0HMSEJFISTDGP" started.
+2023-07-27 15:50:42.977 +03:30 [DBG] Connection id "0HMSEJFISTDGQ" started.
+2023-07-27 15:50:42.992 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 15:50:43.001 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 15:50:43.010 +03:30 [DBG] Connection id "0HMSEJFISTDGQ" stopped.
+2023-07-27 15:50:43.014 +03:30 [DBG] Connection id "0HMSEJFISTDGP" stopped.
+2023-07-27 15:50:43.014 +03:30 [DBG] Connection id "0HMSEJFISTDGP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 15:50:43.014 +03:30 [DBG] Connection id "0HMSEJFISTDGQ" sending FIN because: "The Socket transport's send loop completed gracefully."

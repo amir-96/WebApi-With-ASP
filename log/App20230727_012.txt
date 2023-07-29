@@ -1,0 +1,108 @@
+2023-07-27 23:46:49.164 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-27 23:46:49.797 +03:30 [INF] Entity Framework Core 6.0.20 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-07-27 23:46:49.997 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.002 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.022 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.035 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.047 +03:30 [DBG] An entity of type 'Product' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.052 +03:30 [DBG] An entity of type 'Product' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.056 +03:30 [DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.057 +03:30 [DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.064 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 23:46:50.068 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 23:46:50.069 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 23:46:50.069 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 23:46:50.096 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-07-27 23:46:50.108 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.108 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.108 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.108 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.108 +03:30 [DBG] An entity of type 'Product' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.109 +03:30 [DBG] An entity of type 'Product' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.109 +03:30 [DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.109 +03:30 [DBG] An entity of type 'User' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-27 23:46:50.109 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 23:46:50.109 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 23:46:50.109 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-27 23:46:50.109 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-27 23:46:50.110 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-07-27 23:46:50.168 +03:30 [DBG] 'ApplicationDbContext' disposed.
+2023-07-27 23:47:00.024 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-27 23:47:00.099 +03:30 [DBG] Hosting starting
+2023-07-27 23:47:00.112 +03:30 [INF] User profile is available. Using 'C:\Users\amirj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-27 23:47:00.114 +03:30 [DBG] Reading data from file 'C:\Users\amirj\AppData\Local\ASP.NET\DataProtection-Keys\key-e6e8aa4a-753d-4975-b87f-f0beb135ff4f.xml'.
+2023-07-27 23:47:00.119 +03:30 [DBG] Found key {e6e8aa4a-753d-4975-b87f-f0beb135ff4f}.
+2023-07-27 23:47:00.124 +03:30 [DBG] Considering key {e6e8aa4a-753d-4975-b87f-f0beb135ff4f} with expiration date 2023-10-15 14:27:24Z as default key.
+2023-07-27 23:47:00.125 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-27 23:47:00.126 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-27 23:47:00.127 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-27 23:47:00.129 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-27 23:47:00.130 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-27 23:47:00.132 +03:30 [DBG] Using key {e6e8aa4a-753d-4975-b87f-f0beb135ff4f} as the default key.
+2023-07-27 23:47:00.132 +03:30 [DBG] Key ring with default key {e6e8aa4a-753d-4975-b87f-f0beb135ff4f} was loaded during application startup.
+2023-07-27 23:47:00.169 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 125DFC3616D0C8C0E4FE0C577311DF2BC2C4E277)
+2023-07-27 23:47:00.183 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-27 23:47:00.183 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-27 23:47:00.183 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-27 23:47:00.183 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-27 23:47:00.183 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-27 23:47:00.183 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 23:47:00.183 +03:30 [INF] Hosting environment: Development
+2023-07-27 23:47:00.183 +03:30 [INF] Content root path: D:\Programming\GitHub\WebApi-With-ASP\
+2023-07-27 23:47:00.183 +03:30 [DBG] Hosting started
+2023-07-27 23:47:00.432 +03:30 [DBG] Connection id "0HMSERPNKRTD3" reset.
+2023-07-27 23:47:00.432 +03:30 [DBG] Connection id "0HMSERPNKRTD2" reset.
+2023-07-27 23:47:00.435 +03:30 [DBG] Connection id "0HMSERPNKRTD3" accepted.
+2023-07-27 23:47:00.435 +03:30 [DBG] Connection id "0HMSERPNKRTD2" accepted.
+2023-07-27 23:47:00.436 +03:30 [DBG] Connection id "0HMSERPNKRTD2" started.
+2023-07-27 23:47:00.436 +03:30 [DBG] Connection id "0HMSERPNKRTD3" started.
+2023-07-27 23:47:00.439 +03:30 [DBG] Connection id "0HMSERPNKRTD4" accepted.
+2023-07-27 23:47:00.439 +03:30 [DBG] Connection id "0HMSERPNKRTD4" started.
+2023-07-27 23:47:00.443 +03:30 [DBG] Failed to authenticate HTTPS connection.
+Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketConnection.DoReceive()
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.ReadAsync(CancellationToken token)
+   at System.IO.Pipelines.Pipe.DefaultPipeReader.ReadAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 23:47:00.443 +03:30 [DBG] Failed to authenticate HTTPS connection.
+Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketConnection.DoReceive()
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.ReadAsync(CancellationToken token)
+   at System.IO.Pipelines.Pipe.DefaultPipeReader.ReadAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-27 23:47:00.459 +03:30 [DBG] Connection id "0HMSERPNKRTD2" stopped.
+2023-07-27 23:47:00.459 +03:30 [DBG] Connection id "0HMSERPNKRTD3" stopped.
+2023-07-27 23:47:00.459 +03:30 [DBG] Connection id "0HMSERPNKRTD2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 23:47:00.459 +03:30 [DBG] Connection id "0HMSERPNKRTD3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-27 23:47:00.466 +03:30 [DBG] Connection 0HMSERPNKRTD4 established using the following protocol: "Tls13"
+2023-07-27 23:47:00.495 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - -
+2023-07-27 23:47:00.510 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-27 23:47:00.521 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-27 23:47:00.521 +03:30 [DBG] Request did not match any endpoints
+2023-07-27 23:47:00.569 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-27 23:47:00.615 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-27 23:47:00.616 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 123.4541ms
+2023-07-27 23:47:00.636 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - -
+2023-07-27 23:47:00.636 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - -
+2023-07-27 23:47:00.638 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 2.0205ms
+2023-07-27 23:47:00.644 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.1289ms
+2023-07-27 23:47:00.868 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - -
+2023-07-27 23:47:00.868 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-27 23:47:00.868 +03:30 [DBG] Request did not match any endpoints
+2023-07-27 23:47:00.949 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.4947ms

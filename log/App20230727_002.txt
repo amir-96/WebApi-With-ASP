@@ -1,0 +1,60 @@
+2023-07-27 15:48:36.859 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-27 15:48:37.549 +03:30 [INF] Entity Framework Core 6.0.20 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-07-27 15:48:37.573 +03:30 [DBG] Migrating using database 'Test_db' on server ''.
+2023-07-27 15:48:37.577 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.700 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.702 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.706 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.712 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-27 15:48:37.719 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-07-27 15:48:37.719 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.757 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.762 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 15:48:37.829 +03:30 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 15:48:37.830 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.831 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.832 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.862 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.862 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.862 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.862 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-27 15:48:37.862 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-27 15:48:37.862 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.862 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.862 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 15:48:37.863 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 15:48:37.863 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.863 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.877 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-27 15:48:37.878 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-27 15:48:37.878 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.878 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.878 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-27 15:48:37.880 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-27 15:48:37.885 +03:30 [DBG] A data reader was disposed.
+2023-07-27 15:48:37.885 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 15:48:37.885 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 15:48:37.893 +03:30 [INF] Applying migration '20230727121829_AddProduct'.
+2023-07-27 15:48:37.910 +03:30 [DBG] 'ApplicationDbContext' disposed.
+2023-07-27 15:49:56.671 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-27 15:49:56.707 +03:30 [DBG] Hosting starting
+2023-07-27 15:49:56.761 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 125DFC3616D0C8C0E4FE0C577311DF2BC2C4E277)
+2023-07-27 15:49:56.786 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-27 15:49:56.786 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-27 15:49:56.787 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-27 15:49:56.787 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-27 15:49:56.787 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-27 15:49:56.787 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-27 15:49:56.787 +03:30 [INF] Hosting environment: Development
+2023-07-27 15:49:56.787 +03:30 [INF] Content root path: D:\Programming\GitHub\WebApi-With-ASP\
+2023-07-27 15:49:56.787 +03:30 [DBG] Hosting started

@@ -1,0 +1,129 @@
+2023-07-27 23:47:00.055 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-27 23:47:00.618 +03:30 [INF] Entity Framework Core 6.0.20 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-07-27 23:47:00.652 +03:30 [DBG] Migrating using database 'Test_db' on server ''.
+2023-07-27 23:47:00.657 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.772 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.772 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.776 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.780 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-27 23:47:00.784 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-27 23:47:00.784 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.822 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.826 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:47:00.873 +03:30 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:47:00.874 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.875 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.876 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.910 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.910 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.910 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.910 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-27 23:47:00.910 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-27 23:47:00.910 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.910 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.910 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:47:00.911 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:47:00.911 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.912 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.922 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-27 23:47:00.922 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-27 23:47:00.922 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.922 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.923 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-27 23:47:00.925 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-27 23:47:00.929 +03:30 [DBG] A data reader was disposed.
+2023-07-27 23:47:00.929 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.929 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.938 +03:30 [INF] Applying migration '20230727201650_AddUserHashed'.
+2023-07-27 23:47:00.958 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.958 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.959 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-27 23:47:00.963 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-27 23:47:00.963 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-27 23:47:00.963 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-27 23:47:00.964 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Products" SET "CreatedDate" = TIMESTAMPTZ '2023-07-27 20:16:49.933235Z'
+WHERE "Id" = 1;
+2023-07-27 23:47:00.967 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Products" SET "CreatedDate" = TIMESTAMPTZ '2023-07-27 20:16:49.933235Z'
+WHERE "Id" = 1;
+2023-07-27 23:47:00.967 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-27 23:47:00.967 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-27 23:47:00.967 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Users" SET "Password" = '$2a$11$CmqiSO7597b0shsBxSU9KutfnzSaqF/o5T/MT7VD7e3gHXXg9fvU2'
+WHERE "Id" = 1;
+2023-07-27 23:47:00.968 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Users" SET "Password" = '$2a$11$CmqiSO7597b0shsBxSU9KutfnzSaqF/o5T/MT7VD7e3gHXXg9fvU2'
+WHERE "Id" = 1;
+2023-07-27 23:47:00.968 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-27 23:47:00.968 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-27 23:47:00.968 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230727201650_AddUserHashed', '6.0.20');
+2023-07-27 23:47:00.968 +03:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230727201650_AddUserHashed', '6.0.20');
+2023-07-27 23:47:00.969 +03:30 [DBG] Committing transaction.
+2023-07-27 23:47:00.971 +03:30 [DBG] Committed transaction.
+2023-07-27 23:47:00.971 +03:30 [DBG] Disposing transaction.
+2023-07-27 23:47:00.971 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:47:00.971 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:47:00.972 +03:30 [DBG] 'ApplicationDbContext' disposed.
+2023-07-27 23:48:01.938 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-27 23:48:02.508 +03:30 [INF] Entity Framework Core 6.0.20 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-07-27 23:48:02.531 +03:30 [DBG] Migrating using database 'Test_db' on server ''.
+2023-07-27 23:48:02.535 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.654 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.655 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.657 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.662 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-27 23:48:02.666 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-07-27 23:48:02.667 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.706 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.710 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:48:02.757 +03:30 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:48:02.757 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.758 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.759 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.784 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.785 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.785 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.785 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-27 23:48:02.785 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-27 23:48:02.785 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.785 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.785 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:48:02.785 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-27 23:48:02.786 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.786 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.797 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-27 23:48:02.797 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-27 23:48:02.797 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.797 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.797 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-27 23:48:02.800 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-27 23:48:02.803 +03:30 [DBG] A data reader was disposed.
+2023-07-27 23:48:02.803 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-27 23:48:02.803 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-27 23:48:02.810 +03:30 [INF] No migrations were applied. The database is already up to date.
+2023-07-27 23:48:02.811 +03:30 [DBG] 'ApplicationDbContext' disposed.
