@@ -1,0 +1,348 @@
+2023-07-29 20:03:28.638 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-29 20:03:29.336 +03:30 [INF] Entity Framework Core 6.0.20 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-07-29 20:03:29.603 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-29 20:03:29.612 +03:30 [DBG] Context 'ApplicationDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-29 20:03:29.630 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-29 20:03:29.638 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-29 20:03:29.669 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-07-29 20:03:29.742 +03:30 [DBG] 'ApplicationDbContext' disposed.
+2023-07-29 20:04:30.317 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-29 20:04:30.969 +03:30 [INF] Entity Framework Core 6.0.20 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.8+e68dfe8b5cbe4a26d20acc36def6187aa1cfdda3' with options: None
+2023-07-29 20:04:31.005 +03:30 [DBG] Migrating using database 'Test_db' on server ''.
+2023-07-29 20:04:31.011 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-29 20:04:31.111 +03:30 [DBG] An error occurred using the connection to database 'Test_db' on server ''.
+2023-07-29 20:04:31.112 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-29 20:04:31.145 +03:30 [DBG] An error occurred using the connection to database 'Test_db' on server ''.
+2023-07-29 20:04:31.307 +03:30 [DBG] Opening connection to database 'postgres' on server ''.
+2023-07-29 20:04:31.434 +03:30 [DBG] Opened connection to database 'postgres' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:31.439 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-29 20:04:31.444 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-07-29 20:04:31.450 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE "Test_db";
+2023-07-29 20:04:31.821 +03:30 [INF] Executed DbCommand (371ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE "Test_db";
+2023-07-29 20:04:31.822 +03:30 [DBG] Closing connection to database 'postgres' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:31.823 +03:30 [DBG] Closed connection to database 'postgres' on server ''.
+2023-07-29 20:04:31.824 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-29 20:04:31.880 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:31.880 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:31.880 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-29 20:04:31.947 +03:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2023-07-29 20:04:31.949 +03:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2023-07-29 20:04:31.957 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-29 20:04:31.957 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-29 20:04:31.957 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.000 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.001 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2023-07-29 20:04:32.011 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2023-07-29 20:04:32.011 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.012 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.013 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.047 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.047 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.047 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.049 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-29 20:04:32.049 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-07-29 20:04:32.049 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.049 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.049 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-29 20:04:32.067 +03:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-07-29 20:04:32.067 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.067 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.068 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-29 20:04:32.068 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-07-29 20:04:32.068 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.068 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.069 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-29 20:04:32.070 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-29 20:04:32.073 +03:30 [DBG] A data reader was disposed.
+2023-07-29 20:04:32.073 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.073 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.082 +03:30 [INF] Applying migration '20230729163329_Init'.
+2023-07-29 20:04:32.103 +03:30 [DBG] Opening connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.103 +03:30 [DBG] Opened connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.104 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-29 20:04:32.109 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-07-29 20:04:32.109 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-29 20:04:32.109 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-29 20:04:32.110 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Products" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "Description" text NOT NULL,
+    "Category" text NOT NULL,
+    "ImageUrl" text NOT NULL,
+    "Price" integer NOT NULL,
+    "CreatedDate" timestamp with time zone NOT NULL,
+    "UpdatedDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Products" PRIMARY KEY ("Id")
+);
+2023-07-29 20:04:32.117 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Products" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "Description" text NOT NULL,
+    "Category" text NOT NULL,
+    "ImageUrl" text NOT NULL,
+    "Price" integer NOT NULL,
+    "CreatedDate" timestamp with time zone NOT NULL,
+    "UpdatedDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Products" PRIMARY KEY ("Id")
+);
+2023-07-29 20:04:32.117 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-29 20:04:32.117 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-29 20:04:32.117 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Users" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "UserName" text NOT NULL,
+    "HashedPassword" text NOT NULL,
+    "Email" text NOT NULL,
+    "Role" text NOT NULL,
+    "Name" text NOT NULL,
+    "PhoneNumber" text NOT NULL,
+    CONSTRAINT "PK_Users" PRIMARY KEY ("Id")
+);
+2023-07-29 20:04:32.122 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Users" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "UserName" text NOT NULL,
+    "HashedPassword" text NOT NULL,
+    "Email" text NOT NULL,
+    "Role" text NOT NULL,
+    "Name" text NOT NULL,
+    "PhoneNumber" text NOT NULL,
+    CONSTRAINT "PK_Users" PRIMARY KEY ("Id")
+);
+2023-07-29 20:04:32.122 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-29 20:04:32.122 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-29 20:04:32.122 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Category", "CreatedDate", "Description", "ImageUrl", "Name", "Price", "UpdatedDate")
+VALUES (1, 'Test', TIMESTAMPTZ '2023-07-29 16:33:29.504991Z', 'Test', 'Test', 'Laptop', 200000, TIMESTAMPTZ '-infinity');
+2023-07-29 20:04:32.124 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Category", "CreatedDate", "Description", "ImageUrl", "Name", "Price", "UpdatedDate")
+VALUES (1, 'Test', TIMESTAMPTZ '2023-07-29 16:33:29.504991Z', 'Test', 'Test', 'Laptop', 200000, TIMESTAMPTZ '-infinity');
+2023-07-29 20:04:32.124 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-29 20:04:32.124 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-29 20:04:32.124 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Id", "Email", "HashedPassword", "Name", "PhoneNumber", "Role", "UserName")
+VALUES (1, 'test@test.com', '$2a$11$Q81mmRk.MtEmMKObI6ZMhu8oiNiAgNoKsrrCJS4G2sefonKUnhpHq', 'amir', '09122222222', 'Admin', 'amir');
+2023-07-29 20:04:32.125 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Id", "Email", "HashedPassword", "Name", "PhoneNumber", "Role", "UserName")
+VALUES (1, 'test@test.com', '$2a$11$Q81mmRk.MtEmMKObI6ZMhu8oiNiAgNoKsrrCJS4G2sefonKUnhpHq', 'amir', '09122222222', 'Admin', 'amir');
+2023-07-29 20:04:32.125 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-29 20:04:32.125 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-29 20:04:32.125 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT setval(
+    pg_get_serial_sequence('"Products"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Products") + 1,
+        nextval(pg_get_serial_sequence('"Products"', 'Id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('"Users"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Users") + 1,
+        nextval(pg_get_serial_sequence('"Users"', 'Id'))),
+    false);
+2023-07-29 20:04:32.128 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT setval(
+    pg_get_serial_sequence('"Products"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Products") + 1,
+        nextval(pg_get_serial_sequence('"Products"', 'Id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('"Users"', 'Id'),
+    GREATEST(
+        (SELECT MAX("Id") FROM "Users") + 1,
+        nextval(pg_get_serial_sequence('"Users"', 'Id'))),
+    false);
+2023-07-29 20:04:32.128 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-07-29 20:04:32.128 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-07-29 20:04:32.128 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230729163329_Init', '6.0.20');
+2023-07-29 20:04:32.129 +03:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230729163329_Init', '6.0.20');
+2023-07-29 20:04:32.129 +03:30 [DBG] Committing transaction.
+2023-07-29 20:04:32.131 +03:30 [DBG] Committed transaction.
+2023-07-29 20:04:32.132 +03:30 [DBG] Disposing transaction.
+2023-07-29 20:04:32.132 +03:30 [DBG] Closing connection to database 'Test_db' on server 'tcp://localhost:5432'.
+2023-07-29 20:04:32.132 +03:30 [DBG] Closed connection to database 'Test_db' on server ''.
+2023-07-29 20:04:32.133 +03:30 [DBG] 'ApplicationDbContext' disposed.
+2023-07-29 20:04:40.326 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-29 20:04:40.513 +03:30 [DBG] Hosting starting
+2023-07-29 20:04:40.530 +03:30 [INF] User profile is available. Using 'C:\Users\amirj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-29 20:04:40.532 +03:30 [DBG] Reading data from file 'C:\Users\amirj\AppData\Local\ASP.NET\DataProtection-Keys\key-18c9baf3-d922-4f33-a645-9f96833f8681.xml'.
+2023-07-29 20:04:40.559 +03:30 [DBG] Found key {18c9baf3-d922-4f33-a645-9f96833f8681}.
+2023-07-29 20:04:40.568 +03:30 [DBG] Considering key {18c9baf3-d922-4f33-a645-9f96833f8681} with expiration date 2023-09-22 18:18:12Z as default key.
+2023-07-29 20:04:40.570 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-29 20:04:40.572 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-07-29 20:04:40.572 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-29 20:04:40.575 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-07-29 20:04:40.576 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-07-29 20:04:40.578 +03:30 [DBG] Using key {18c9baf3-d922-4f33-a645-9f96833f8681} as the default key.
+2023-07-29 20:04:40.579 +03:30 [DBG] Key ring with default key {18c9baf3-d922-4f33-a645-9f96833f8681} was loaded during application startup.
+2023-07-29 20:04:40.648 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 5C1C557DD875CE42344947353E6E0BF6CDFDCC6F)
+2023-07-29 20:04:40.674 +03:30 [INF] Now listening on: https://localhost:7122
+2023-07-29 20:04:40.674 +03:30 [INF] Now listening on: http://localhost:5003
+2023-07-29 20:04:40.674 +03:30 [DBG] Loaded hosting startup assembly API Project
+2023-07-29 20:04:40.674 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-29 20:04:40.674 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-29 20:04:40.674 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-29 20:04:40.674 +03:30 [INF] Hosting environment: Development
+2023-07-29 20:04:40.674 +03:30 [INF] Content root path: C:\Users\amirj\Desktop\Uni AI\WebApi-With-ASP\
+2023-07-29 20:04:40.674 +03:30 [DBG] Hosting started
+2023-07-29 20:04:40.698 +03:30 [DBG] Connection id "0HMSGA6QGF439" received FIN.
+2023-07-29 20:04:40.698 +03:30 [DBG] Connection id "0HMSGA6QGF43A" received FIN.
+2023-07-29 20:04:40.702 +03:30 [DBG] Connection id "0HMSGA6QGF439" accepted.
+2023-07-29 20:04:40.702 +03:30 [DBG] Connection id "0HMSGA6QGF43A" accepted.
+2023-07-29 20:04:40.703 +03:30 [DBG] Connection id "0HMSGA6QGF43A" started.
+2023-07-29 20:04:40.703 +03:30 [DBG] Connection id "0HMSGA6QGF439" started.
+2023-07-29 20:04:40.713 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-29 20:04:40.713 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-29 20:04:40.741 +03:30 [DBG] Connection id "0HMSGA6QGF43A" stopped.
+2023-07-29 20:04:40.741 +03:30 [DBG] Connection id "0HMSGA6QGF439" stopped.
+2023-07-29 20:04:40.743 +03:30 [DBG] Connection id "0HMSGA6QGF439" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-29 20:04:40.743 +03:30 [DBG] Connection id "0HMSGA6QGF43A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-29 20:04:42.498 +03:30 [DBG] Connection id "0HMSGA6QGF43B" accepted.
+2023-07-29 20:04:42.521 +03:30 [DBG] Connection id "0HMSGA6QGF43B" started.
+2023-07-29 20:04:42.639 +03:30 [DBG] Connection 0HMSGA6QGF43B established using the following protocol: "Tls13"
+2023-07-29 20:04:42.732 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - -
+2023-07-29 20:04:42.793 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-29 20:04:42.815 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-29 20:04:42.815 +03:30 [DBG] Request did not match any endpoints
+2023-07-29 20:04:42.968 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-29 20:04:43.137 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-29 20:04:43.140 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 411.0404ms
+2023-07-29 20:04:43.157 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 20:04:43.159 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 2.5710ms
+2023-07-29 20:04:43.227 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - -
+2023-07-29 20:04:43.263 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.7969ms
+2023-07-29 20:04:43.348 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - -
+2023-07-29 20:04:43.349 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-29 20:04:43.349 +03:30 [DBG] Request did not match any endpoints
+2023-07-29 20:04:43.433 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - API_Project.Controllers.ProductsController.GetProductsAsync (API Project). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-29 20:04:43.436 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 87.7955ms
+2023-07-29 20:04:44.893 +03:30 [DBG] Connection id "0HMSGA6QGF43B" received FIN.
+2023-07-29 20:04:44.897 +03:30 [DBG] Connection id "0HMSGA6QGF43B" is closed. The last processed stream ID was 7.
+2023-07-29 20:04:44.897 +03:30 [DBG] Connection id "0HMSGA6QGF43B" sending FIN because: "The client closed the connection."
+2023-07-29 20:04:44.898 +03:30 [DBG] Connection id "0HMSGA6QGF43B" stopped.
+2023-07-29 20:04:48.256 +03:30 [DBG] Connection id "0HMSGA6QGF43C" accepted.
+2023-07-29 20:04:48.256 +03:30 [DBG] Connection id "0HMSGA6QGF43C" started.
+2023-07-29 20:04:48.258 +03:30 [DBG] Connection 0HMSGA6QGF43C established using the following protocol: "Tls13"
+2023-07-29 20:04:48.258 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - -
+2023-07-29 20:04:48.259 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-29 20:04:48.259 +03:30 [DBG] Request did not match any endpoints
+2023-07-29 20:04:48.260 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-29 20:04:48.264 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-29 20:04:48.264 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 5.5988ms
+2023-07-29 20:04:48.279 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 20:04:48.279 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 0.5250ms
+2023-07-29 20:04:48.285 +03:30 [DBG] Connection id "0HMSGA6QGF43D" accepted.
+2023-07-29 20:04:48.285 +03:30 [DBG] Connection id "0HMSGA6QGF43D" started.
+2023-07-29 20:04:48.287 +03:30 [DBG] Connection 0HMSGA6QGF43D established using the following protocol: "Tls13"
+2023-07-29 20:04:48.287 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 20:04:48.288 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 0.4310ms
+2023-07-29 20:04:48.301 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - -
+2023-07-29 20:04:48.310 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.6398ms
+2023-07-29 20:04:48.369 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - -
+2023-07-29 20:04:48.369 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-29 20:04:48.369 +03:30 [DBG] Request did not match any endpoints
+2023-07-29 20:04:48.370 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - API_Project.Controllers.ProductsController.GetProductsAsync (API Project). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-29 20:04:48.371 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 1.9846ms
+2023-07-29 20:04:49.372 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - -
+2023-07-29 20:04:49.374 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.3140ms
+2023-07-29 20:07:00.135 +03:30 [DBG] Connection id "0HMSGA6QGF43C" is closing.
+2023-07-29 20:07:00.136 +03:30 [DBG] Connection id "0HMSGA6QGF43C" is closed. The last processed stream ID was 7.
+2023-07-29 20:07:00.136 +03:30 [DBG] Connection id "0HMSGA6QGF43C" received FIN.
+2023-07-29 20:07:00.136 +03:30 [DBG] Connection id "0HMSGA6QGF43C" sending FIN because: "The client closed the connection."
+2023-07-29 20:07:00.137 +03:30 [DBG] Connection id "0HMSGA6QGF43C" stopped.
+2023-07-29 20:07:01.145 +03:30 [DBG] Connection id "0HMSGA6QGF43D" is closing.
+2023-07-29 20:07:01.145 +03:30 [DBG] Connection id "0HMSGA6QGF43D" is closed. The last processed stream ID was 3.
+2023-07-29 20:07:01.146 +03:30 [DBG] Connection id "0HMSGA6QGF43D" received FIN.
+2023-07-29 20:07:01.146 +03:30 [DBG] Connection id "0HMSGA6QGF43D" stopped.
+2023-07-29 20:07:01.146 +03:30 [DBG] Connection id "0HMSGA6QGF43D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-29 23:08:33.407 +03:30 [DBG] Connection id "0HMSGA6QGF43E" accepted.
+2023-07-29 23:08:33.408 +03:30 [DBG] Connection id "0HMSGA6QGF43E" started.
+2023-07-29 23:08:33.411 +03:30 [DBG] Connection 0HMSGA6QGF43E established using the following protocol: "Tls13"
+2023-07-29 23:08:33.411 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - -
+2023-07-29 23:08:33.412 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-29 23:08:33.412 +03:30 [DBG] Request did not match any endpoints
+2023-07-29 23:08:33.412 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-29 23:08:33.415 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-29 23:08:33.415 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 3.8633ms
+2023-07-29 23:08:33.429 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 23:08:33.430 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 0.2033ms
+2023-07-29 23:08:33.437 +03:30 [DBG] Connection id "0HMSGA6QGF43F" accepted.
+2023-07-29 23:08:33.438 +03:30 [DBG] Connection id "0HMSGA6QGF43F" started.
+2023-07-29 23:08:33.439 +03:30 [DBG] Connection 0HMSGA6QGF43F established using the following protocol: "Tls13"
+2023-07-29 23:08:33.439 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - -
+2023-07-29 23:08:33.440 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 0.2218ms
+2023-07-29 23:08:33.479 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - -
+2023-07-29 23:08:33.485 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.9278ms
+2023-07-29 23:08:33.575 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - -
+2023-07-29 23:08:33.575 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-29 23:08:33.575 +03:30 [DBG] Request did not match any endpoints
+2023-07-29 23:08:33.576 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - API_Project.Controllers.ProductsController.GetProductsAsync (API Project). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-29 23:08:33.576 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 1.9112ms
+2023-07-29 23:08:34.539 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - -
+2023-07-29 23:08:34.542 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.2728ms
+2023-07-29 23:10:45.238 +03:30 [DBG] Connection id "0HMSGA6QGF43E" is closing.
+2023-07-29 23:10:45.238 +03:30 [DBG] Connection id "0HMSGA6QGF43E" is closed. The last processed stream ID was 7.
+2023-07-29 23:10:45.239 +03:30 [DBG] Connection id "0HMSGA6QGF43E" received FIN.
+2023-07-29 23:10:45.239 +03:30 [DBG] Connection id "0HMSGA6QGF43E" sending FIN because: "The client closed the connection."
+2023-07-29 23:10:45.254 +03:30 [DBG] Connection id "0HMSGA6QGF43E" stopped.
+2023-07-29 23:10:46.242 +03:30 [DBG] Connection id "0HMSGA6QGF43F" is closing.
+2023-07-29 23:10:46.242 +03:30 [DBG] Connection id "0HMSGA6QGF43F" is closed. The last processed stream ID was 3.
+2023-07-29 23:10:46.242 +03:30 [DBG] Connection id "0HMSGA6QGF43F" received FIN.
+2023-07-29 23:10:46.242 +03:30 [DBG] Connection id "0HMSGA6QGF43F" stopped.
+2023-07-29 23:10:46.242 +03:30 [DBG] Connection id "0HMSGA6QGF43F" sending FIN because: "The Socket transport's send loop completed gracefully."

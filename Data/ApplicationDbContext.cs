@@ -1,5 +1,6 @@
 ﻿using API_Project.Models;
 using API_Project.Models.Dto;
+using API_Project.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_Project.Data
@@ -22,7 +23,7 @@ namespace API_Project.Data
             UserName = "amir",
             HashedPassword = BCrypt.Net.BCrypt.HashPassword("test"),
             Email = "test@test.com",
-            Role = "Admin",
+            Role = SD.Admin,
             Name = "amir",
             PhoneNumber = "09122222222",
           }

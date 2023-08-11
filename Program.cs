@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Data;
 using System.Text;
@@ -28,7 +29,17 @@ builder.Services.AddControllers(option =>
   //option.ReturnHttpNotAcceptable = true;
 }).AddNewtonsoftJson().AddXmlDataContractSerializerFormatters();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+  options.AddSecurityDefinition(name: "Bearer", securityScheme: new OpenApiSecurityScheme
+  {
+    Name = "Authorization",
+    Description = "Enter the Bearer Authorization string as following: `Bearer Generated-JWT-Token`",
+    In = ParameterLocation.Header,
+    Type = SecuritySchemeType.ApiKey,
+    Scheme = "Bearer"
+  });
+});
 builder.Services.AddScoped<CreateTokenService>();
 
 var devCorPolicy = "devCorPolicy";

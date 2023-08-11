@@ -23,6 +23,7 @@ namespace API_Project.Controllers
 
     #region Get all products
 
+    [HttpGet]
     public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProductsAsync()
     {
       _logger.LogInformation("Get all products");

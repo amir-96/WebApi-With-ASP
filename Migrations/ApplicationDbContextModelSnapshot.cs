@@ -64,7 +64,7 @@ namespace API_Project.Migrations
                         {
                             Id = 1,
                             Category = "Test",
-                            CreatedDate = new DateTime(2023, 7, 27, 20, 57, 13, 307, DateTimeKind.Utc).AddTicks(7137),
+                            CreatedDate = new DateTime(2023, 7, 29, 16, 33, 29, 504, DateTimeKind.Utc).AddTicks(9914),
                             Description = "Test",
                             ImageUrl = "Test",
                             Name = "Laptop",
@@ -114,7 +114,7 @@ namespace API_Project.Migrations
                         {
                             Id = 1,
                             Email = "test@test.com",
-                            HashedPassword = "$2a$11$QPYrNG52dYOBpQXCpdTXQuKbuijxQtOII7FLZXueJilbB/MIBjQMS",
+                            HashedPassword = "$2a$11$Q81mmRk.MtEmMKObI6ZMhu8oiNiAgNoKsrrCJS4G2sefonKUnhpHq",
                             Name = "amir",
                             PhoneNumber = "09122222222",
                             Role = "Admin",
